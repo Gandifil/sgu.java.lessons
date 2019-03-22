@@ -1,0 +1,17 @@
+[
+  {
+    "manufacturer" : "Toyota",
+    "model" : "Corolla",
+    "year" : "1997"
+  },
+  {
+    "manufacturer" : "Hyundai",
+    "model" : "Solaris",
+    "year" : "2018"
+  },
+  {
+    "manufacturer" : "Kia",
+    "model" : "Rio",
+    "year" : "2017"
+  }
+]
