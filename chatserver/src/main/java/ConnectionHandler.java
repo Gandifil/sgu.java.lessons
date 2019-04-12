@@ -13,7 +13,7 @@ public class ConnectionHandler implements Runnable {
     private static int clients_count = 0;
 
     // конструктор, который принимает клиентский сокет и сервер
-    public ClientHandler(Socket socket) {
+    public ConnectionHandler(Socket socket) {
         try {
             clients_count++;
             this.server = server;

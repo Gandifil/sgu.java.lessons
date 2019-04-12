@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/garage01/pom.xml" />
         <option value="$PROJECT_DIR$/chatserver/pom.xml" />
+        <option value="$PROJECT_DIR$/calculator/pom.xml" />
+        <option value="$PROJECT_DIR$/garage02/pom.xml" />
       </list>
     </option>
   </component>

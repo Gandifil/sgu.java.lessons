@@ -54,6 +54,8 @@ public class UIManager {
         cars.forEach(line -> System.out.println(line));
         if (cars.size() == 0)
             System.out.println("Пусто");
+        else
+            System.out.println("Количество машин: " + cars.size());
         System.out.println("Нажмите enter, чтобы вернуться обратно в меню");
         scan.nextLine();
         scan.nextLine();

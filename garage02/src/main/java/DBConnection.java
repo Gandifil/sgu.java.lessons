@@ -5,22 +5,30 @@ import java.util.List;
 public class DBConnection {
     public static final DBConnection INSTANCE = new DBConnection();
 
-    private static final String DB_URL = "jdbc:postgresql://localhost:5432";
+    private static final String DB_URL = "jdbc:postgresql://localhost:5432/java_lessons";
     private static final String USER = "postgres";
     private static final String PASS = "makasin";
 
-    Connection connection;
+    private Connection connection;
 
     private DBConnection(){
         try{
             connection = DriverManager.getConnection(DB_URL, USER, PASS);
+            System.out.println("Java JDBC PostgreSQL подключен успешно!");
         }
         catch (SQLException e){
-            System.err.println("Connection Failed");
+            System.err.println("Ошибка подключения к БД!");
             e.printStackTrace();
         }
+    }
 
-        System.out.println("Java JDBC PostgreSQL started succesfully!");
+    /**
+     * <p> Если соединения с базой данных нет, вызываем NullPointerException </p>
+     */
+    public Connection getConnection() {
+        if (connection == null)
+            throw new NullPointerException();
+        return connection;
     }
 
     public List<Car> getCars(String table){
