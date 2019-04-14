@@ -1,30 +1,25 @@
+import io.javalin.Javalin;
+import io.javalin.websocket.WsSession;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketException;
-import java.util.ArrayList;
-
-class ClientInfo{
-    public String name;
-    public int roomId;
-    public boolean isConnected;
-}
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class Server {
-    public static void main(String[] args) {
-        try {
-            ServerSocket socketListener = new ServerSocket(1234);
+    static final int PORT = 1234;
 
-            while (true) {
-                Socket client = socketListener.accept();
-                new ConnectionHandler(client); //Создаем новый поток, которому передаем сокет
-            }
-        } catch (SocketException e) {
-            System.err.println("Socket exception");
-            e.printStackTrace();
-        } catch (IOException e) {
-            System.err.println("I/O exception");
-            e.printStackTrace();
-        }
+    private static Map<WsSession, Connection> connections = new ConcurrentHashMap<>();
+
+    public static void main(String[] args) {
+        Javalin.create()
+                .ws("/chat", ws -> {
+                    ws.onConnect(session -> connections.put(session, new Connection(session, connections)));
+                    ws.onClose((session, status, message) -> connections.get(session).close());
+                    ws.onMessage((session, message) -> connections.get(session).receive(message));
+                })
+                .start(PORT);
     }
 }
