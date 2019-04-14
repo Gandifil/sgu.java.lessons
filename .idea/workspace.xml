@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cebc3ac-9d81-4554-9d2d-5bebcf3a6c98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_9_1_901_1_jdbc4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calculator/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatserver/src/main/java/ConnectionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/src/main/java/ConnectionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garage01/src/main/java/UIManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/garage01/src/main/java/UIManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garage02/cars.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/garage02/garage02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/garage02/garage02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garage02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/garage02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garage02/src/main/java/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/garage02/src/main/java/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garage02/src/main/java/CarsSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/garage02/src/main/java/CarsSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garage02/src/main/java/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/garage02/src/main/java/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garage02/src/main/java/Garage.java" beforeDir="false" afterPath="$PROJECT_DIR$/garage02/src/main/java/Garage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garage02/src/main/java/UIManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/garage02/src/main/java/UIManager.java" afterDir="false" />
-    </list>
+    <list default="true" id="6cebc3ac-9d81-4554-9d2d-5bebcf3a6c98" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/garage01/target/" />
     <ignored path="$PROJECT_DIR$/chatserver/target/" />
     <ignored path="$PROJECT_DIR$/calculator/target/" />
@@ -69,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/garage02/src/main/java/Garage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="155">
+              <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -263,12 +245,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553238161803</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix">
+      <created>1555074207650</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555074207650</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="1" />
@@ -276,7 +264,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.15838926" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.15838926" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -286,7 +274,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.04249292" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.24220963" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -300,7 +288,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/chatserver/pom.xml">
@@ -479,8 +468,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/garage02/src/main/java/Garage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="155">
+          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
         </state>
       </provider>
     </entry>
