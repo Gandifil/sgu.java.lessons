@@ -14,9 +14,8 @@ class UIButton{
 }
 
 public class UIManager {
-    private Garage garage = new Garage();
-    private CarsSet carData = new CarsSet();
     private Scanner scan = new Scanner(System.in);
+    DBConnection conn = DBConnection.INSTANCE;
 
     public void startMenu(){
         String intro = "Главное меню. Вы будете постоянно возвращаться сюда.";
@@ -50,8 +49,8 @@ public class UIManager {
 
     private void showGarage(){
         System.out.println("Машины в гараже:");
-        List<String> cars = garage.getStatus();
-        cars.forEach(line -> System.out.println(line));
+        List<Car> cars = conn.getGarageCars();
+        cars.forEach(car -> System.out.println(car.getDescription()));
         if (cars.size() == 0)
             System.out.println("Пусто");
         else
@@ -63,16 +62,16 @@ public class UIManager {
 
     private void addCar(){
         String intro = "Выберите машину, которую хотите добавить в гараж.";
-        UIButton[] buttons = carData.cars.stream()
-                .map(car -> new UIButton(car.getDescription(), ()-> garage.add(car)))
+        UIButton[] buttons = conn.getCars().stream()
+                .map(car -> new UIButton(car.getDescription(), ()-> conn.addCarToGarage(car)))
                 .toArray(UIButton[]::new);
         uiForm(intro, buttons, true);
     }
 
     private void removeCar(){
         String intro = "Выберите машину, которую хотите убрать из гаража.";
-        UIButton[] buttons = carData.cars.stream()
-                .map(car -> new UIButton(car.getDescription(), ()-> garage.remove(car)))
+        UIButton[] buttons = conn.getGarageCars().stream()
+                .map(car -> new UIButton(car.getDescription(), ()-> conn.deleteCarFromGarage(car)))
                 .toArray(UIButton[]::new);
         uiForm(intro, buttons, true);
     }

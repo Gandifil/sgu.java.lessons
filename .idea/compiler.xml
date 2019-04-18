@@ -13,8 +13,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="calculator" target="8" />
-      <module name="chatserver" target="8" />
+      <module name="calculator" target="1.8" />
+      <module name="chatserver" target="1.8" />
       <module name="garage01" target="1.8" />
       <module name="garage02" target="1.8" />
     </bytecodeTargetLevel>
