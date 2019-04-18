@@ -5,7 +5,7 @@ import java.util.List;
 public class DBConnection {
     static final String JDBC_DRIVER = "org.h2.Driver";
     static final String DB_URL = "jdbc:h2:~/test";
-    static final String USER = "sa";
+    static final String USER = "gandifil";
     static final String PASS = "";
 
     public static final DBConnection INSTANCE = new DBConnection();

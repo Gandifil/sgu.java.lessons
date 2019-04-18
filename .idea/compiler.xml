@@ -10,6 +10,7 @@
         <module name="chatserver" />
         <module name="garage01" />
         <module name="garage02" />
+        <module name="garage03" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -17,6 +18,7 @@
       <module name="chatserver" target="1.8" />
       <module name="garage01" target="1.8" />
       <module name="garage02" target="1.8" />
+      <module name="garage03" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
