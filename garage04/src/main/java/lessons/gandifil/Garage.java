@@ -1,3 +1,5 @@
+package lessons.gandifil;
+
 import javax.persistence.*;
 
 @Entity
