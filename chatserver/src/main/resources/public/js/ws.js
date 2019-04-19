@@ -1,4 +1,4 @@
-let server = "ws://openjdk-app-chatserver1.7e14.starter-us-west-2.openshiftapps.com:8080/chat";
+let server = "ws://openjdk-app-chatserver1.7e14.starter-us-west-2.openshiftapps.com:80/chat";
 socket = new WebSocket(server);
 socket.onopen = () => {};
 socket.onmessage = function(event){
