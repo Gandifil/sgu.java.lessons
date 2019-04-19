@@ -21,6 +21,7 @@ public class Server {
                     ws.onClose((session, status, message) -> connections.get(session).close());
                     ws.onMessage((session, message) -> connections.get(session).receive(message));
                 })
+                .get("/", ctx -> ctx.redirect("/game.html"))
                 .start(PORT);
     }
 }
