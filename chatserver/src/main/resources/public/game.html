@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hometown game</title>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.15.1/dist/phaser-arcade-physics.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+<body>
+<script src="js/Actor.js"></script>
+<script src="js/MainScene.js"></script>
+<script src="js/game.js"></script>
+<div id='wrapper'>
+    <br>
+    <h2>Здравствуй, пользователь! Чтобы войти в чат, укажи имя и комнату! <br>
+    Логин (имя внутри чата):  <input name="userlogin" type="text" id="userlogin" size="63" /> <br> <br>
+    Номера доступных комнат: <div id="rooms1"> загружаются </div> <br>
+    Номер комнаты: <input name="userroom" type="text" id="userroom" size="63" /> <br> <br>
+    <input type="button" value="Войти" onclick="startGame();"></h2>
+</div>
+<script src="js/ws.js"></script>
+</body>
+</html>

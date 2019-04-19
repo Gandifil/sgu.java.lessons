@@ -15,6 +15,7 @@ public class Server {
 
     public static void main(String[] args) {
         Javalin.create()
+                .enableStaticFiles("/public")
                 .ws("/chat", ws -> {
                     ws.onConnect(session -> connections.put(session, new Connection(session, connections)));
                     ws.onClose((session, status, message) -> connections.get(session).close());
