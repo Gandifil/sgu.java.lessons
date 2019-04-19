@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chatserver/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="27" column="57" lean-forward="true" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+            <state relative-caret-position="531">
+              <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -178,10 +178,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -223,7 +223,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555684805161" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555687048013" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/garage04/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/garage02" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -373,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555684619297</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fix 2 pom.xml for .jar file">
+      <created>1555684812186</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555684812187</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -421,7 +428,8 @@
     <MESSAGE value="chatserver" />
     <MESSAGE value="Add client" />
     <MESSAGE value="Fix pom.xml for .jar file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix pom.xml for .jar file" />
+    <MESSAGE value="Fix 2 pom.xml for .jar file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix 2 pom.xml for .jar file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/chatserver/src/main/java/Message.java" />
@@ -765,8 +773,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chatserver/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="27" column="57" lean-forward="true" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+        <state relative-caret-position="531">
+          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
         </state>
       </provider>
     </entry>
