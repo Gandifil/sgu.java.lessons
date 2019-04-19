@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class Server {
-    static final int PORT = 1234;
+    static final int PORT = 8080;
 
     private static Map<WsSession, Connection> connections = new ConcurrentHashMap<>();
 

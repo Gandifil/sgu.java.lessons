@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6cebc3ac-9d81-4554-9d2d-5bebcf3a6c98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatserver/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/src/main/java/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatserver/src/main/resources/public/js/ws.js" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/src/main/resources/public/js/ws.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/garage01/target/" />
     <ignored path="$PROJECT_DIR$/chatserver/target/" />
@@ -22,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chatserver/src/main/java/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+            <state relative-caret-position="169">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,9 +33,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chatserver/src/main/resources/public/js/ws.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chatserver/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
+            <state relative-caret-position="945">
               <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
             </state>
           </provider>
@@ -147,9 +157,10 @@
         <option value="$PROJECT_DIR$/chatserver/src/main/java/ClientUpdate.java" />
         <option value="$PROJECT_DIR$/chatserver/src/main/java/ClientInfo.java" />
         <option value="$PROJECT_DIR$/chatserver/src/main/java/Connection.java" />
-        <option value="$PROJECT_DIR$/chatserver/src/main/java/Server.java" />
         <option value="$PROJECT_DIR$/chatserver/src/main/resources/public/js/game.js" />
         <option value="$PROJECT_DIR$/chatserver/pom.xml" />
+        <option value="$PROJECT_DIR$/chatserver/src/main/java/Server.java" />
+        <option value="$PROJECT_DIR$/chatserver/src/main/resources/public/js/ws.js" />
       </list>
     </option>
   </component>
@@ -210,6 +221,48 @@
             <path>
               <item name="sgu.java.lessons" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="chatserver" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sgu.java.lessons" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="chatserver" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sgu.java.lessons" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="chatserver" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sgu.java.lessons" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="chatserver" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sgu.java.lessons" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="chatserver" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sgu.java.lessons" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="chatserver" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="sgu.java.lessons" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="chatserver" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
@@ -220,7 +273,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555689040203" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555689470518" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/garage04/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/garage02" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -391,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555687502292</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fix depencies 3 (single jar with all depences)">
+      <created>1555689056250</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555689056250</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -442,10 +502,10 @@
     <MESSAGE value="Fix 2 pom.xml for .jar file" />
     <MESSAGE value="Fix depencies" />
     <MESSAGE value="Fix depencies 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix depencies 2" />
+    <MESSAGE value="Fix depencies 3 (single jar with all depences)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix depencies 3 (single jar with all depences)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chatserver/src/main/java/Message.java" />
     <entry file="file://$PROJECT_DIR$/garage01/src/main/java/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -700,16 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chatserver/src/main/java/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chatserver/target/classes/public/game.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -754,24 +804,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chatserver/src/main/resources/public/game.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calculator/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chatserver/src/main/resources/public/js/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -786,8 +822,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chatserver/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="945">
           <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatserver/src/main/resources/public/js/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatserver/src/main/resources/public/game.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatserver/src/main/java/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chatserver/src/main/resources/public/js/ws.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
         </state>
       </provider>
     </entry>
