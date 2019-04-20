@@ -102,6 +102,13 @@ public class Connection{
     }
 
     public void close() {
+        pred_update.message = "\nclose\n";
+        try{
+            broadcast(mapper.writeValueAsString(pred_update));
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
         _clients.remove(this);
         System.out.println("Close connection!");
     }

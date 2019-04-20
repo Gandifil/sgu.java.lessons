@@ -4,7 +4,7 @@ class MainScene extends Phaser.Scene {
         this.platforms = null;
         this.player = null;
         this.cursors = null;
-        this.friends = null;
+        this.friends = [];
         this.msg_key = null;
 
         this.startdata = {
@@ -83,7 +83,6 @@ class MainScene extends Phaser.Scene {
 
         this.cursors = this.input.keyboard.createCursorKeys();
 
-        this.friends = [];
         this.physics.add.collider(this.friends, this.platforms);
 
         this.msg_key = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.ENTER);
@@ -129,7 +128,15 @@ class MainScene extends Phaser.Scene {
         let data = JSON.parse(event.data);
         let friend = this.friendByName(data.name);
         if (friend)
-            friend.updateData(data);
+        {
+            if (data.message == "\nclose\n")
+            {
+                this.friends = this.friends.filter( el => friend.getData("name") !== friend.getData("name") );
+                friend.destroy();
+            }
+            else
+                friend.updateData(data);
+        }
         else
             this.friends.push(new Actor(
                 this,
