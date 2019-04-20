@@ -129,10 +129,11 @@ class MainScene extends Phaser.Scene {
         let friend = this.friendByName(data.name);
         if (friend)
         {
-            if (data.message == "\nclose\n")
+            if (data.message === "\nclose\n")
             {
                 this.friends = this.friends.filter( el => friend.getData("name") !== friend.getData("name") );
-                friend.destroy();
+                console.log("Пользователь удален")
+                friend.clear();
             }
             else
                 friend.updateData(data);
@@ -144,8 +145,6 @@ class MainScene extends Phaser.Scene {
                 data.y,
                 data.name
             ));
-        console.log("Данные обновлены!");
-        console.log(data);
     }
 
     friendByName(name) {

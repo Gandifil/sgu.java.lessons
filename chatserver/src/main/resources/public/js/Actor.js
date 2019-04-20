@@ -26,6 +26,11 @@ class Actor extends Phaser.GameObjects.Sprite {
         this.setData("name", name);
     }
 
+    clear(){
+        this.v_text.destroy();
+        this.destroy();
+    }
+
     update(){
         this.v_text.x = this.x;
         this.v_text.y = this.y;
